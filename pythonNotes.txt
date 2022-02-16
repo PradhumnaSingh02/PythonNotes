@@ -1,0 +1,54 @@
+Python
+
+*we can print anything in Python then we use print() statement We were print string either we use (' ') and also(" ")
+* we can perform any operation in python using +,-,*,/,//  and many more things.
+* We can comment anythig in Python then we use #
+* we can comment multilines then we use '''    '''
+* \n is used to print multiple line then it break a line
+* \t is is used as a tab spaces in any programming Language
+* \\ backslace
+* \' single quote(')
+* \'' double quote(")
+* \a ASCII bell
+* \b ASCII Backspace
+* \f ASCII Forefeed
+* \r ASCII Carriage Return
+* \v ASCII Vertical Tab
+* \000 Character with octal VAlues
+* \xhh character with hex value hh
+* There are different types of data types are in python int,str,float,boolean e.t.c.
+* Type casting is also posiible in Python..
+* a = 'Pradhumna'
+ print(a[0])
+OUTPUT-P
+*  len(a)- it calculate length of string present in datatype a which is 9
+* s='abc'
+s*3
+OUTPUT-abcabcabc
+###############STRING FORMATTING######################
+1> .format() method
+2> f-String it is also known as String Litreals
+* l=list(map(int,input().split(' '))) take input in same line
+* use of args and *kwargs
+
+def fun(*args):
+	print(args)
+fun(92,34,45,47)
+OUTPUT-
+(92,34,45,47)
+
+next is
+def fun(**kwargs):
+	print(kwargs)
+
+fun('fruit'='Apple','vegetable'='Potato')
+OUTPUT -
+{'fruit':'apple','Vegetable':'Potato'}
+
+*def fun(*args,**kwargs):
+	print(args)
+	print(kwargs)
+
+* Recursion we were use and call function indide a function..
+
+*
